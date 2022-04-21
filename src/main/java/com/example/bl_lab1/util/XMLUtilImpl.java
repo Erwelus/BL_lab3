@@ -1,15 +1,13 @@
-package com.example.bl_lab1.service.impl;
+package com.example.bl_lab1.util;
 
 import com.example.bl_lab1.model.UserEntity;
-import com.example.bl_lab1.model.Users;
-import com.example.bl_lab1.service.XMLUtil;
+import com.example.bl_lab1.util.XMLUtil;
 import com.thoughtworks.xstream.XStream;
 import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
-import javax.xml.bind.annotation.XmlRootElement;
 import java.io.*;
 import java.util.List;
 

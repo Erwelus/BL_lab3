@@ -1,4 +1,4 @@
-package com.example.bl_lab1.service;
+package com.example.bl_lab1.util;
 
 import org.springframework.stereotype.Service;
 

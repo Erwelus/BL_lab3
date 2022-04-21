@@ -23,12 +23,4 @@ public class UserEntity {
         this.role=role;
     }
 
-//    public UserEntity(Integer id, String username, String password, String refreshToken, String role){
-//        this.id=id;
-//        this.username=username;
-//        this.password=password;
-//        this.refreshToken=refreshToken;
-//        this.role=role;
-//    }
-
 }

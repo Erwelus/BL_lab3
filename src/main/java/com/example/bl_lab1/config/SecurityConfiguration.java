@@ -28,7 +28,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     }
 
     private static final String LOGIN_ENDPOINT = "/api/auth/**";
-    private static final String LOGIN_PAGE = "/application/login/";
     private static final String REFRESH_ENDPOINT = "/api/refresh/**";
     private static final String ARTICLE_CONTENT ="/section/**";
     private static final String SAVE_VERSION_ENDPOINT ="/version/save";
@@ -41,7 +40,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers(LOGIN_ENDPOINT).permitAll()
-                .antMatchers(LOGIN_PAGE).permitAll()
                 .antMatchers(REFRESH_ENDPOINT).permitAll()
                 .antMatchers(ARTICLE_CONTENT).permitAll()
                 .antMatchers(SAVE_VERSION_ENDPOINT).permitAll()

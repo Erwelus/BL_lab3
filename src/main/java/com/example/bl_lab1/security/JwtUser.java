@@ -13,11 +13,11 @@ public class JwtUser implements UserDetails {
     private final Collection<? extends GrantedAuthority> authorities;
 
 
-    public JwtUser(Integer id, String username, String password, Collection<? extends GrantedAuthority> authorities){
+    public JwtUser(Integer id, String username, String password, Collection<? extends GrantedAuthority> authorities) {
         this.id = id;
-        this.username=username;
-        this.password=password;
-        this.authorities=authorities;
+        this.username = username;
+        this.password = password;
+        this.authorities = authorities;
     }
 
     public int getId() {
